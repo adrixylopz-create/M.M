@@ -3,6 +3,7 @@ require("dotenv").config();
 const express = require("express");
 const OpenAI = require("openai");
 const app = express();
+app.use("/revision", require("./panel-revision-static.cjs"));
 app.use(express.json());
 const PORT = process.env.PORT || 8080;
 // Sin clave las FAQ siguen disponibles; el respaldo responde con soporte neutral.
