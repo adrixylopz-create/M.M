@@ -15,7 +15,7 @@ const NEGOCIO = Object.freeze({
   adicional: "Trazos Bonitos: La Biblioteca para Practicar en Casa", precioAdicional: 59,
   bonos: Object.freeze(["Dinosaurios", "Roblox", "K-POP", "Poppy Playtime"])
 });
-const DATOS_PAGO = Object.freeze({ banco: "SPIN BY OXXO", titular: "Oswaldo Crescencio", clabe: "728969000148438985" });
+const DATOS_PAGO = Object.freeze({ banco: "SPIN BY OXXO", titular: "Oswaldo Crescencio", clabe: "728969000149438985" });
 
 const SYSTEM_PROMPT = `Eres el asistente automatizado oficial de ${NEGOCIO.nombre} en México.
 Habla con transparencia: no inventes identidad humana ni experiencias personales.
